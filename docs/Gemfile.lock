@@ -76,7 +76,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.2.1)
   jekyll-feed (~> 0.12)
-  jekyll-remote-theme (~> 0.4.3)
+  jekyll-remote-theme
   jekyll-theme-minimal (~> 0.2.0)
   tzinfo (~> 1.2)
   tzinfo-data
