@@ -20,7 +20,7 @@
 
 title: Creative Crispr
 email: kas@waag.org
-description: >- # this means to ignore newlines until "baseurl:"
+description: >- #this means to ignore newlines until "baseurl:" 
   This is an educational platform for the preperation and execution of crispr protocols in an educational setting
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -31,6 +31,8 @@ github_username:  jekyll
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
+markdown: kramdown
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
