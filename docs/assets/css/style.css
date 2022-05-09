@@ -139,9 +139,14 @@ h1, h2, h3 { line-height: 1.1; }
 
 h1 { font-size: 28px; }
 
-h2 { color: #171c21; }
+h2 { color: #007db2; }
 
-h3, h4, h5, h6 { color: #171c21; }
+h3, h4, h5, h6 { color: ##007db2; }
+
+ul.nav {
+    margin: 0px;
+    line-height: 1.2em;
+}
 
 a { color: #007db2; text-decoration: none; }
 
