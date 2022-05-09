@@ -47,7 +47,33 @@
 
       <h1>Welcome<a class="anchor" id="0.0"></a></h1>
 
-          <p>The CRISPR Course is an educational module for artists and the general public who are interested in genetic engineering and want to explore CRISPR-Cas9 technologies in a creative context. No prior knowledge about biology or experience in the lab is needed to participate. This pilot course was developed during Hybrid Lab Network activities, and it was tested with students, teachers, and people from different countries and backgrounds.<br><br><a href = "{{ site.url }}/#0.1">⌄ get started ⌄</a></p>
+          <p>The CRISPR Course is an educational module for artists and the general public who are interested in genetic engineering and want to explore CRISPR-Cas9 technologies in a creative context. No prior knowledge about biology or experience in the lab is needed to participate. This pilot course was developed during Hybrid Lab Network activities, and it was tested with students, teachers, and people from different countries and backgrounds.<br></p>
+
+          <div class= "logos">
+              <div class="grid1">
+                <div><img src="/assets/logos/logo_hybridlabnetwork.png" alt="hln" style="max-width:100%; margin-bottom:0px; filter: grayscale(100%) opacity(0.8);"></div>
+                <div><img src="/assets/logos/logo_almamater.png" alt="almamater" style="max-width:90%; filter: grayscale(100%) opacity(0.8)"></div>
+                <div><img src="/assets/logos/logo_aalto.png" alt="aalto" style="max-width:80%; filter: grayscale(100%) opacity(0.8)";></div>
+                <div><img src="/assets/logos/logo_ibmc.png" alt="ibmc" style="max-width:100%; filter: grayscale(100%) opacity(0.8);"></div>
+                <div><img src="/assets/logos/logo_waag.svg" alt="waag" style="max-width:100%; filter: grayscale(100%) opacity(0.8);"></div>
+            </div>
+
+        <!-- Script to change opacity when scrolling the web page -->
+            <script src=
+              "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+            </script>
+            <script>
+              $(document).ready(function(){
+                $(window).scroll(function(){
+                  $('.logos').css("opacity", 1- $(window).scrollTop() / 700)
+                })
+              })
+            </script>
+        </div>
+
+            <br>
+
+            <p><a href = "{{ site.url }}/#0.1">⌄ get started ⌄</a></p>
 
           <div class="intropagebreak"><p></p></div>
 
@@ -69,6 +95,8 @@
       </section>
       
       <footer>
+
+    <!--         
         <div class= "logos">
           <img src="/assets/logos/logo_hybridlabnetwork.png" alt="hln" style="max-width:65%; margin-bottom:0px; margin-left: 13px ; filter: grayscale(100%) opacity(0.8);">
           <div class="grid1">
@@ -77,9 +105,8 @@
           </div>
           <img src="/assets/logos/logo_ibmc.png" alt="ibmc" style="max-width:80%; filter: grayscale(100%) opacity(0.8);">
           <img src="/assets/logos/logo_waag.svg" alt="waag" style="max-width:80%; filter: grayscale(100%) opacity(0.8);">
-        </div>
+        </div> -->
         <img src="/assets/logos/logo_erasmus.png" alt="erasmus" style="max-width:80%;">
-
 
     <!-- Script to change opacity when scrolling the web page -->
         <script src=
